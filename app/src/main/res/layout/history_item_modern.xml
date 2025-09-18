@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- history_item_modern.xml - Fixed with Hardcoded Dimensions -->
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorOutlineVariant"
+    android:backgroundTint="?attr/colorSurfaceContainer"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:minHeight="72dp">
+
+        <!-- Expression and Result Container -->
+        <LinearLayout
+            android:id="@+id/mainContentContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnCopyResult"
+            app:layout_constraintBottom_toTopOf="@id/timestampAndActions">
+
+            <!-- Calculation Expression -->
+            <TextView
+                android:id="@+id/tvExpression"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:textSize="15sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:fontFamily="monospace"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:lineSpacingMultiplier="1.1"
+                tools:text="125 + 75 × 2.5 - 100 ÷ 4" />
+
+            <!-- Result with enhanced prominence -->
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorPrimary"
+                android:fontFamily="monospace"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="= 287.5" />
+
+        </LinearLayout>
+
+        <!-- Copy Button -->
+        <ImageButton
+            android:id="@+id/btnCopyResult"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_copy_24"
+            android:contentDescription="@string/copy_result_desc"
+            android:scaleType="center"
+            app:tint="?attr/colorOnSurfaceVariant"
+            app:layout_constraintTop_toTopOf="@id/mainContentContainer"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Bottom section with timestamp and actions -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/timestampAndActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/mainContentContainer"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Timestamp -->
+            <TextView
+                android:id="@+id/tvTimestamp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:alpha="0.85"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:fontFamily="sans-serif"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/quickActionButtons"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:text="2 minutes ago" />
+
+            <!-- Quick action buttons -->
+            <LinearLayout
+                android:id="@+id/quickActionButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <!-- Compact Use Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnQuickUse"
+                    style="@style/Widget.Material3.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="@string/use"
+                    android:textSize="11sp"
+                    android:textColor="?attr/colorPrimary"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:minWidth="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:icon="@drawable/ic_edit_24"
+                    app:iconSize="14dp"
+                    app:iconTint="?attr/colorPrimary"
+                    app:iconGravity="textStart"
+                    android:fontFamily="sans-serif-medium" />
+
+                <!-- Compact Delete Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnQuickDelete"
+                    style="@style/Widget.Material3.Button.TextButton.Icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="@string/delete"
+                    android:textSize="11sp"
+                    android:textColor="?attr/colorError"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:minWidth="0dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:icon="@drawable/ic_delete_24"
+                    app:iconSize="14dp"
+                    app:iconTint="?attr/colorError"
+                    app:iconGravity="textStart"
+                    android:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Action Buttons Container (for expanded view) -->
+        <LinearLayout
+            android:id="@+id/actionButtonsContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:background="?attr/colorSurfaceVariant"
+            android:padding="12dp"
+            android:animateLayoutChanges="true"
+            app:layout_constraintTop_toBottomOf="@id/timestampAndActions"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <!-- Use Expression Button -->
+            <Button
+                android:id="@+id/btnUseExpression"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="@string/use"
+                android:textSize="13sp"
+                android:textColor="?attr/colorPrimary"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginEnd="8dp"
+                android:minWidth="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                app:icon="@drawable/ic_edit_24"
+                app:iconSize="18dp"
+                app:iconTint="?attr/colorPrimary"
+                app:iconGravity="textStart"
+                app:strokeColor="?attr/colorPrimary"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Delete Button -->
+            <Button
+                android:id="@+id/btnDeleteItem"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/delete"
+                android:textSize="13sp"
+                android:textColor="?attr/colorError"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:minWidth="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                app:icon="@drawable/ic_delete_24"
+                app:iconSize="18dp"
+                app:iconTint="?attr/colorError"
+                app:iconGravity="textStart"
+                app:strokeColor="?attr/colorError"
+                android:fontFamily="sans-serif-medium" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

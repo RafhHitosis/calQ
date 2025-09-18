@@ -1,0 +1,224 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#6750A4</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#EADDFF</item>
+        <item name="colorOnPrimaryContainer">#21005D</item>
+        <item name="colorSecondary">#625B71</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#E8DEF8</item>
+        <item name="colorOnSecondaryContainer">#1D192B</item>
+        <item name="colorTertiary">#7D5260</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
+        <item name="colorTertiaryContainer">#FFD8E4</item>
+        <item name="colorOnTertiaryContainer">#31111D</item>
+        <item name="colorError">#BA1A1A</item>
+        <item name="colorErrorContainer">#FFDAD6</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorOnErrorContainer">#410002</item>
+        <item name="android:colorBackground">#FFFBFE</item>
+        <item name="colorOnBackground">#1C1B1F</item>
+        <item name="colorSurface">#FFFBFE</item>
+        <item name="colorOnSurface">#1C1B1F</item>
+        <item name="colorSurfaceVariant">#E7E0EC</item>
+        <item name="colorOnSurfaceVariant">#49454F</item>
+        <item name="colorOutline">#79747E</item>
+        <item name="colorOutlineVariant">#CAC4D0</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" >
+    <item name="colorPrimary">@color/md_theme_light_primary</item>
+    <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+    <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+    <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+
+    <!-- Secondary colors -->
+    <item name="colorSecondary">@color/md_theme_light_secondary</item>
+    <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+    <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+    <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+
+    <!-- Tertiary colors -->
+    <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+    <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+    <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+    <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+
+    <!-- Error colors -->
+    <item name="colorError">@color/md_theme_light_error</item>
+    <item name="colorOnError">@color/md_theme_light_onError</item>
+    <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+    <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+
+    <!-- Neutral colors -->
+    <item name="colorOutline">@color/md_theme_light_outline</item>
+    <item name="colorOutlineVariant">@color/md_theme_light_outlineVariant</item>
+
+    <!-- Surface colors -->
+    <item name="colorSurface">@color/md_theme_light_surface</item>
+    <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+    <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+    <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+    <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+    <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+
+    <!-- Background colors -->
+    <item name="android:colorBackground">@color/md_theme_light_background</item>
+    <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+
+    <!-- Status bar -->
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+    <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    <item name="android:navigationBarColor">?attr/colorSurface</item>
+    <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+    <!-- Window properties -->
+    <item name="android:windowBackground">?attr/colorSurface</item>
+    <item name="android:enforceStatusBarContrast" tools:targetApi="q">false</item>
+    <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+    </style>>
+
+    <!-- Custom button styles for calculator -->
+    <style name="CalculatorButton.Number" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalculatorButton.Operator" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalculatorButton.Function" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CalculatorButton.Special" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CalculatorButton.Primary" parent="Widget.Material3.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="CalculatorButton.Clear" parent="Widget.Material3.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">?attr/colorError</item>
+        <item name="android:textColor">?attr/colorOnError</item>
+    </style>
+
+    <!-- History Modal Styles -->
+    <style name="HistoryModalAnimation">
+        <item name="android:windowEnterAnimation">@anim/modal_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/modal_slide_out</item>
+    </style>
+
+    <!-- History Item Card Style -->
+    <style name="HistoryItemCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">?attr/colorOutlineVariant</item>
+        <item name="cardBackgroundColor">?attr/colorSurfaceVariant</item>
+    </style>
+
+    <!-- Typography Styles -->
+    <style name="HistoryExpressionText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+
+    <style name="HistoryResultText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="HistoryTimestampText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:alpha">0.7</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="CompactActionButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconSize">16dp</item>
+    </style>
+
+    <style name="BaseButtonStyle">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:padding">0dp</item>
+
+    </style>
+
+    <!-- Number button style -->
+    <style name="NumberButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">@color/number_text_color</item>
+        <item name="android:background">@drawable/number_button_bg</item>
+        <item name="android:fontFamily">@font/roboto</item>
+
+    </style>
+
+    <!-- Operator button style -->
+    <style name="OperatorButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/operator_button_bg</item>
+        <item name="android:fontFamily">@font/roboto</item>
+
+    </style>
+
+    <!-- Function button style (%, ±) -->
+    <style name="FunctionButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">@color/function_text_color</item>
+        <item name="android:background">@drawable/function_button_bg</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+
+    </style>
+
+    <!-- Scientific function button style -->
+    <style name="ScientificButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">@color/scientific_text_color</item>
+        <item name="android:background">@drawable/scientific_button_bg</item>
+        <item name="android:fontFamily">@font/roboto</item>
+
+    </style>
+
+    <!-- Clear button style -->
+    <style name="ClearButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/clear_button_bg</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+
+    </style>
+
+    <!-- Delete/Backspace button style -->
+    <style name="DeleteButtonStyle" parent="BaseButtonStyle">
+        <item name="android:textColor">@color/delete_text_color</item>
+        <item name="android:background">@drawable/scientific_button_bg</item>
+        <item name="android:fontFamily">@font/roboto</item>
+
+    </style>
+
+
+</resources>

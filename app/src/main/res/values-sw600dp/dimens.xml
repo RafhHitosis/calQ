@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- sw600dp dimens-->
+<resources>
+    <!-- Larger dimensions for tablets -->
+    <dimen name="modal_margin_horizontal">48dp</dimen>
+    <dimen name="modal_margin_top">32dp</dimen>
+    <dimen name="modal_margin_bottom">24dp</dimen>
+    <dimen name="modal_corner_radius">28dp</dimen>
+    <dimen name="modal_max_width">1000dp</dimen>
+    <dimen name="modal_padding_horizontal">32dp</dimen>
+
+    <!-- Enhanced header for tablets -->
+    <dimen name="header_padding_vertical">20dp</dimen>
+    <dimen name="header_min_height">64dp</dimen>
+    <dimen name="header_icon_size">32dp</dimen>
+    <dimen name="header_icon_margin">20dp</dimen>
+    <dimen name="header_title_text_size">24sp</dimen>
+    <dimen name="close_button_size">52dp</dimen>
+    <dimen name="close_button_padding">14dp</dimen>
+
+    <!-- Enhanced content for tablets -->
+    <dimen name="content_padding_horizontal">32dp</dimen>
+    <dimen name="content_padding_vertical">20dp</dimen>
+    <dimen name="search_bottom_margin">21dp</dimen>
+    <dimen name="recycler_padding_vertical">8dp</dimen>
+
+    <!-- Enhanced empty state for tablets -->
+    <dimen name="empty_state_padding">48dp</dimen>
+    <dimen name="empty_state_icon_size">96dp</dimen>
+    <dimen name="empty_state_icon_margin">32dp</dimen>
+    <dimen name="empty_state_title_size">24sp</dimen>
+    <dimen name="empty_state_title_margin">12dp</dimen>
+    <dimen name="empty_state_subtitle_size">16sp</dimen>
+    <dimen name="empty_state_max_width">480dp</dimen>
+
+    <!-- Enhanced action buttons for tablets -->
+    <dimen name="action_buttons_padding_vertical">16dp</dimen>
+    <dimen name="action_button_height">44dp</dimen>
+    <dimen name="action_button_text_size">15sp</dimen>
+    <dimen name="action_button_padding_horizontal">20dp</dimen>
+    <dimen name="action_button_spacing">16dp</dimen>
+    <dimen name="action_button_icon_size">22dp</dimen>
+
+    <!-- Enhanced history items for tablets -->
+    <dimen name="history_item_padding">20dp</dimen>
+    <dimen name="history_item_margin_bottom">8dp</dimen>
+    <dimen name="history_item_corner_radius">18dp</dimen>
+    <dimen name="history_item_min_height">80dp</dimen>
+    <dimen name="history_copy_button_size">44dp</dimen>
+    <dimen name="history_action_button_height">40dp</dimen>
+</resources>

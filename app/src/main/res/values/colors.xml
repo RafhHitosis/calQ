@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="light_gray">#A6A6A6</color>
+    <color name="dark_gray">#333333</color>
+    <color name="orange">#FF9500</color>
+    <color name="orange_pressed">#FFB143</color>
+    <!-- Material 3 Light Theme Colors -->
+    <color name="md_theme_light_primary">#0061A4</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#D1E4FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001D36</color>
+    <color name="md_theme_light_secondary">#535F70</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#D7E3F7</color>
+    <color name="md_theme_light_onSecondaryContainer">#101C2B</color>
+    <color name="md_theme_light_tertiary">#6B5778</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#F2DAFF</color>
+    <color name="md_theme_light_onTertiaryContainer">#251431</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_background">#FCFCFF</color>
+    <color name="md_theme_light_onBackground">#1A1C1E</color>
+    <color name="md_theme_light_surface">#FCFCFF</color>
+    <color name="md_theme_light_onSurface">#1A1C1E</color>
+    <color name="md_theme_light_surfaceVariant">#DFE2EB</color>
+    <color name="md_theme_light_onSurfaceVariant">#43474E</color>
+    <color name="md_theme_light_outline">#73777F</color>
+    <color name="md_theme_light_outlineVariant">#C3C7CF</color>
+
+    <!-- Material 3 Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#9ECAFF</color>
+    <color name="md_theme_dark_onPrimary">#003258</color>
+    <color name="md_theme_dark_primaryContainer">#00497D</color>
+    <color name="md_theme_dark_onPrimaryContainer">#D1E4FF</color>
+    <color name="md_theme_dark_secondary">#BBC7DB</color>
+    <color name="md_theme_dark_onSecondary">#253140</color>
+    <color name="md_theme_dark_secondaryContainer">#3B4858</color>
+    <color name="md_theme_dark_onSecondaryContainer">#D7E3F7</color>
+    <color name="md_theme_dark_tertiary">#D6BEE4</color>
+    <color name="md_theme_dark_onTertiary">#3A2947</color>
+    <color name="md_theme_dark_tertiaryContainer">#523F5F</color>
+    <color name="md_theme_dark_onTertiaryContainer">#F2DAFF</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#111316</color>
+    <color name="md_theme_dark_onBackground">#E2E2E5</color>
+    <color name="md_theme_dark_surface">#111316</color>
+    <color name="md_theme_dark_onSurface">#E2E2E5</color>
+    <color name="md_theme_dark_surfaceVariant">#43474E</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C3C7CF</color>
+    <color name="md_theme_dark_outline">#8D9199</color>
+    <color name="md_theme_dark_outlineVariant">#43474E</color>
+
+    <color name="modal_background_overlay">@android:color/transparent</color>
+
+    <!-- Surface Colors for better contrast -->
+    <color name="surface_bright">#FEFBFF</color>
+    <color name="surface_dim">#F5F0F7</color>
+    <color name="surface_container">#F0EDF1</color>
+    <color name="surface_container_high">#EAE7EB</color>
+
+    <!-- Additional accent colors -->
+    <color name="primary_container">#E8DEF8</color>
+    <color name="on_primary_container">#21005D</color>
+
+    <!-- Success/Error states -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_amber">#FF9800</color>
+
+
+
+    <color name="md_theme_light_inverseOnSurface">#F1F0F4</color>
+    <color name="md_theme_light_inverseSurface">#2F3033</color>
+    <color name="md_theme_light_inversePrimary">#A0CAFD</color>
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surfaceTint">#1976D2</color>
+
+    <color name="md_theme_light_scrim">#000000</color>
+
+    <!-- Dark Theme Colors -->
+
+
+    <color name="md_theme_dark_inverseOnSurface">#101418</color>
+    <color name="md_theme_dark_inverseSurface">#E2E2E9</color>
+    <color name="md_theme_dark_inversePrimary">#1976D2</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surfaceTint">#A0CAFD</color>
+
+    <color name="md_theme_dark_scrim">#000000</color>
+
+    <!-- Additional utility colors -->
+    <color name="calculator_accent">#FF6B35</color>
+    <color name="calculator_accent_variant">#FF8A65</color>
+
+
+    <color name="modal_surface">#FFFFFF</color>
+    <color name="modal_surface_container">#F5F5F5</color>
+    <color name="modal_surface_container_high">#EEEEEE</color>
+
+    <!-- Search box stroke colors -->
+    <color name="search_box_stroke_focused">#1976D2</color>
+    <color name="search_box_stroke_unfocused">#CCCCCC</color>
+
+    <!-- Text colors for better contrast -->
+    <color name="primary_text_light">#1C1B1F</color>
+    <color name="secondary_text_light">#49454F</color>
+    <color name="tertiary_text_light">#79747E</color>
+
+
+
+    <!-- Text colors for better contrast -->
+    <color name="primary_text_dark">#E6E1E5</color>
+    <color name="secondary_text_dark">#CAC4D0</color>
+    <color name="tertiary_text_dark">#938F99</color>
+
+    <!-- Result text colors -->
+    <color name="result_text_primary">#BB86FC</color>
+    <color name="result_text_secondary">#CF94DA</color>
+
+
+    <color name="calculator_background">#0D1117</color>
+    <color name="display_text_color">#F0F6FC</color>
+    <color name="expression_text_color">#7C8B99</color>
+    <color name="number_text_color">#F0F6FC</color>
+    <color name="function_text_color">#F0F6FC</color>
+    <color name="scientific_text_color">#58A6FF</color>
+    <color name="delete_text_color">#F85149</color>
+    <color name="accent_color">#58A6FF</color>
+    <color name="text_primary">#F0F6FC</color>
+    <color name="icon_color">#7C8B99</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Button Background Colors -->
+    <color name="number_button_color">#21262D</color>
+    <color name="number_button_pressed">#30363D</color>
+    <color name="function_button_color">#21262D</color>
+    <color name="function_button_pressed">#30363D</color>
+    <color name="scientific_button_color">#0D1117</color>
+    <color name="scientific_button_pressed">#161B22</color>
+    <color name="operator_button_color">#58A6FF</color>
+    <color name="operator_button_pressed">#4184E4</color>
+    <color name="clear_button_color">#F85149</color>
+    <color name="clear_button_pressed">#E5484D</color>
+
+</resources>

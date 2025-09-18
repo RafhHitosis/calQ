@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- main dimens -->
+<resources>
+
+    <!-- Base dimensions -->
+
+    <dimen name="panel_padding">12dp</dimen>
+    <dimen name="button_panel_padding">16dp</dimen>
+
+    <!-- History button -->
+    <dimen name="history_button_size">40dp</dimen>
+
+    <!-- Display text sizes -->
+
+    <dimen name="expression_min_height">32dp</dimen>
+
+
+    <dimen name="display_min_text_size">24sp</dimen>
+    <dimen name="display_max_text_size">36sp</dimen>
+    <dimen name="display_min_height">56dp</dimen>
+
+    <!-- Corner radius -->
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="display_corner_radius">12dp</dimen>
+    <dimen name="panel_corner_radius">12dp</dimen>
+
+    <dimen name="button_size">80dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_text_size">28sp</dimen>
+
+    <!-- Display dimensions -->
+    <dimen name="display_padding">24dp</dimen>
+    <dimen name="display_text_size">48sp</dimen>
+    <dimen name="expression_text_size">18sp</dimen>
+
+    <!-- Layout dimensions -->
+    <dimen name="panel_margin">16dp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="history_corner_radius">16dp</dimen>
+
+    <dimen name="modal_margin_horizontal">16dp</dimen>
+    <dimen name="modal_margin_top">16dp</dimen>
+
+    <!-- Additional dimensions that need base values -->
+    <!-- From values-land -->
+    <dimen name="min_left_panel_width">200dp</dimen>
+    <dimen name="max_left_panel_width">320dp</dimen>
+    <dimen name="min_right_panel_width">240dp</dimen>
+    <dimen name="button_min_height">56dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+    <dimen name="number_text_size">32sp</dimen>
+    <dimen name="operator_text_size">28sp</dimen>
+    <dimen name="symbol_text_size">28sp</dimen>
+    <dimen name="display_text_min_height">48dp</dimen>
+    <dimen name="history_padding">16dp</dimen>
+    <dimen name="history_title_text_size">18sp</dimen>
+    <dimen name="clear_history_text_size">14sp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+
+    <!-- From values-sw600dp -->
+    <dimen name="modal_margin_bottom">16dp</dimen>
+    <dimen name="modal_corner_radius">20dp</dimen>
+    <dimen name="modal_max_width">600dp</dimen>
+    <dimen name="modal_padding_horizontal">24dp</dimen>
+    <dimen name="header_padding_vertical">16dp</dimen>
+    <dimen name="header_min_height">56dp</dimen>
+    <dimen name="header_icon_size">24dp</dimen>
+    <dimen name="header_icon_margin">16dp</dimen>
+    <dimen name="header_title_text_size">20sp</dimen>
+    <dimen name="close_button_size">48dp</dimen>
+    <dimen name="close_button_padding">12dp</dimen>
+    <dimen name="content_padding_horizontal">24dp</dimen>
+    <dimen name="content_padding_vertical">16dp</dimen>
+    <dimen name="search_bottom_margin">16dp</dimen>
+    <dimen name="recycler_padding_vertical">8dp</dimen>
+    <dimen name="empty_state_padding">32dp</dimen>
+    <dimen name="empty_state_icon_size">72dp</dimen>
+    <dimen name="empty_state_icon_margin">24dp</dimen>
+    <dimen name="empty_state_title_size">20sp</dimen>
+    <dimen name="empty_state_title_margin">8dp</dimen>
+    <dimen name="empty_state_subtitle_size">14sp</dimen>
+    <dimen name="empty_state_max_width">400dp</dimen>
+    <dimen name="action_buttons_padding_vertical">12dp</dimen>
+    <dimen name="action_button_height">40dp</dimen>
+    <dimen name="action_button_text_size">14sp</dimen>
+    <dimen name="action_button_padding_horizontal">16dp</dimen>
+    <dimen name="action_button_spacing">12dp</dimen>
+    <dimen name="action_button_icon_size">20dp</dimen>
+    <dimen name="history_item_padding">16dp</dimen>
+    <dimen name="history_item_margin_bottom">6dp</dimen>
+    <dimen name="history_item_corner_radius">12dp</dimen>
+    <dimen name="history_item_min_height">64dp</dimen>
+    <dimen name="history_copy_button_size">40dp</dimen>
+    <dimen name="history_action_button_height">36dp</dimen>
+
+</resources>

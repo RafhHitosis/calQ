@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- landscape dimensions -->
+
+    <!-- Panel dimensions -->
+    <dimen name="panel_margin">4dp</dimen>
+    <dimen name="panel_padding">12dp</dimen>
+    <dimen name="button_panel_padding">8dp</dimen>
+
+    <!-- Panel constraints -->
+    <dimen name="min_left_panel_width">240dp</dimen>
+    <dimen name="max_left_panel_width">400dp</dimen>
+    <dimen name="min_right_panel_width">280dp</dimen>
+
+    <!-- Button dimensions -->
+    <dimen name="button_min_height" tools:ignore="MissingDefaultResource">48dp</dimen>
+    <dimen name="button_min_width">48dp</dimen>
+    <dimen name="button_margin">2dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="number_text_size">22sp</dimen>
+    <dimen name="operator_text_size">24sp</dimen>
+    <dimen name="symbol_text_size">24sp</dimen>
+
+    <!-- Display area -->
+    <dimen name="display_padding">16dp</dimen>
+    <dimen name="display_min_height">120dp</dimen>
+    <dimen name="display_text_size">42sp</dimen>
+    <dimen name="display_text_min_height">64dp</dimen>
+    <dimen name="expression_text_size">24sp</dimen>
+    <dimen name="expression_min_height">40dp</dimen>
+
+    <!-- History panel -->
+    <dimen name="history_padding">12dp</dimen>
+    <dimen name="history_title_text_size">16sp</dimen>
+    <dimen name="clear_history_text_size">12sp</dimen>
+    <dimen name="history_button_size">40dp</dimen>
+
+    <!-- Common spacing -->
+    <dimen name="small_margin">6dp</dimen>
+    <dimen name="medium_margin">12dp</dimen>
+    <dimen name="small_padding">6dp</dimen>
+
+</resources>
